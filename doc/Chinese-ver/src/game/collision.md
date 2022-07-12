@@ -5,6 +5,7 @@ CCollision介绍：
 
 collision.h文件讲解:
 {
+
     class CCollision
     {
         class CTile *m_pTiles; { 地图内的对应区块 }
@@ -25,10 +26,12 @@ collision.h文件讲解:
         int GetCollisionAt(float x, float y) { 获取当前坐标下的区块是啥(但是返回值不是mapitem里面的数字，而是pow(2, 与mapitems对应); ) }
         int GetWidth() { 获取宽度 }
         int GetHeight() { 获取长度 }
+    }
 }
 
 collision.cpp函数讲解:
 {
+
     CCollision::CCollision()
     {
         初始化变量
