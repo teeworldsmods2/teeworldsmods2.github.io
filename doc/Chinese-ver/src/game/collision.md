@@ -1,9 +1,10 @@
-CCollision介绍：
+# CCollision介绍：
 {
     主要负责控制游戏地图，碰撞箱等
 }
 
-collision.h文件讲解:
+## collision.h文件讲解:
+```C++
 {
 
     class CCollision
@@ -28,8 +29,10 @@ collision.h文件讲解:
         int GetHeight() { 获取长度 }
     }
 }
+```
 
-collision.cpp函数讲解:
+## collision.cpp函数讲解:
+```C++
 {
 
     CCollision::CCollision()
@@ -83,3 +86,4 @@ collision.cpp函数讲解:
         移动碰撞箱，同“void CCollision::MovePoint(vec2 *pInputPos, vec2 *InoutVel, float Elasticity, int *pBounces)”
     }
 }
+```
