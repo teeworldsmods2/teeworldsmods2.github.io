@@ -1,7 +1,8 @@
-CLayers介绍: { 负责控制地图贴图 }
+# CLayers介绍: { 负责控制地图贴图 }
 
-layers.h函数讲解:
+## layers.h函数讲解:
 
+```C++
 {
     class CLayers
     {
@@ -20,9 +21,11 @@ layers.h函数讲解:
     	CMapItemLayerTilemap *GameLayer() const { return m_pGameLayer; }; { 获取贴图区块(m_pGameLayer) }
     };
 }
+```
 
-layers.cpp函数讲解:
+## layers.cpp函数讲解:
 
+```C++
 {
     CLayers::CLayers()
     {
@@ -47,3 +50,4 @@ layers.cpp函数讲解:
     }
 
 }
+```

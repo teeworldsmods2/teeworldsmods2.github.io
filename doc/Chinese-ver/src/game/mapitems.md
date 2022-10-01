@@ -1,10 +1,10 @@
-mapitems文件介绍：
+# mapitems文件介绍：
 {
     控制地图中的区块
 }
 
 mapitems.h：
-
+```C++
 {
     enum
     {
@@ -228,3 +228,4 @@ mapitems.h：
     	    int m_Synchronized;
     };
 }
+```
